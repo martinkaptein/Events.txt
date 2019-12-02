@@ -1,6 +1,5 @@
 # settings
-genDaysAhead = 800 #4380
-startFromYear = 2019
+genDaysAhead = 400 #4380
 WeekdaysStrings = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
 months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
 
@@ -19,9 +18,16 @@ for day in range(genDaysAhead):
     month = future.strftime("%m")
     day = future.strftime("%d")
     printDate = future.strftime("%d/%m/%Y")
-
-    toPrint = 
-    print(future)
+   
+    monthname = months[int(month) - 1]
+    weekdaynumber = future.weekday()
+    weekdayname = WeekdaysStrings[weekdaynumber] 
+    if day == '01':
+        toPrint = '\n\n' + monthname + '\n' + printDate + ' ' + weekdayname + ' |' 
+        print(toPrint)
+    else:
+        toPrint = printDate + ' ' + weekdayname + ' |'
+        print(toPrint)
 
 
 
