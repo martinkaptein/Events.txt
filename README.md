@@ -7,7 +7,7 @@ File has predefined months, which can be "generated" using a script (such as gen
 
 The Events.txt file generally looks like this:
 
-``
+```
 .
 .
 .
@@ -37,4 +37,4 @@ touch Events.txt
 python3 gen.py >> Events.txt
 ```
 
-Open and edit with any text editor, on any device, using the convention above.
+Open, view and edit with any text editor, on any device, using the convention above.

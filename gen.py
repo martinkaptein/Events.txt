@@ -1,5 +1,5 @@
 # settings
-genDaysAhead = 400 #4380
+genDaysAhead = 1000 #4380
 WeekdaysStrings = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
 months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
 
@@ -30,4 +30,4 @@ for day in range(genDaysAhead):
         print(toPrint)
 
 
-
+print("\n\nAdd out-of bounds events here:")
