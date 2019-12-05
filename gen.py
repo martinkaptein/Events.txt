@@ -5,7 +5,7 @@ months = ["January", "February", "March", "April", "May", "June", "July", "Augus
 
 # end settings
 
-print("# Calendar\n")
+print("| Events (dot) txt |\n")
 
 import datetime
 
@@ -30,4 +30,4 @@ for day in range(genDaysAhead):
         print(toPrint)
 
 
-print("\n\nAdd out-of bounds events here:")
+print("\n\n#oob")
