@@ -1,4 +1,4 @@
-___Events (dot) txt___|
+___Events (dot) txt___
 __@username__
 
 06/12/2019 Fri |
@@ -2474,5 +2474,5 @@ ______
 26/05/2025 Mon |
 27/05/2025 Tue |
 
-
+#repeatingEvents
 #oob

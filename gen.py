@@ -6,7 +6,7 @@ months = ["January", "February", "March", "April", "May", "June", "July", "Augus
 
 # end settings
 
-print("___Events (dot) txt___|\n__@username__\n")
+print("___Events (dot) txt___\n__@username__\n")
 
 import datetime
 
@@ -33,5 +33,5 @@ for day in range(genDaysAhead):
         toPrint = printDate + ' ' + weekdayname + ' |'
         print(toPrint)
 
-
+print("\n\n#repeatingEvents")
 print("\n\n#oob")
