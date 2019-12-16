@@ -77,4 +77,8 @@ Open, view and edit with any text editor, on any device, using the convention ab
 
 Until now, you will have to manually insert #oob events into the correct date inside Event.txt. However, this functionality is definitely planned, and will be added in a future release.
 
- 
+# To-Do
+
+- archive functionality
+- install instructions to add to $PATH
+- auto add #oob when it possible
