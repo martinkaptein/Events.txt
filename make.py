@@ -1,3 +1,11 @@
+import datetime
+print("___Events (dot) txt___\n__@username__\n")
+
+
+now = datetime.datetime.now()
+
+##############################
+
 # settings
 genDaysAhead = 2000 #4380
 WeekdaysStrings = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
@@ -5,12 +13,6 @@ months = ["January", "February", "March", "April", "May", "June", "July", "Augus
 # if you want the week to start on sunday, change elif statement to weekdaynumber == 6
 
 # end settings
-
-print("___Events (dot) txt___\n__@username__\n")
-
-import datetime
-
-now = datetime.datetime.now()
 
 for day in range(genDaysAhead):
     diff = datetime.timedelta(days=day)
@@ -33,5 +35,7 @@ for day in range(genDaysAhead):
         toPrint = printDate + ' ' + weekdayname + ' |'
         print(toPrint)
 
-print("\n\n#repeatingEvents")
+###############################
+
+print("\n\n#repeatingYearly")
 print("\n\n#oob")

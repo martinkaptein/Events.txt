@@ -4,7 +4,7 @@ Org-mode replacement, full-featured calendar in a plain-text file, without emacs
 
 # Format
 
-File has predefined months, which can be "generated" using a script (such as gen.py), but it's not required.
+File has predefined months, which can be "generated" using a script (such as make.py), but it's not required.
 
 For this you are free to use the script provided.
 
@@ -34,7 +34,7 @@ ______
 .
 .
 etc.
-#repeatingEvents
+#repeatingYearly
 04/05 - May the force (this event repeats each year)
 
 #oob
@@ -49,11 +49,11 @@ Every Events starts with a `+` character, in order to quickly scan through all e
 
 WORK IN PROGRESS
 
-Repeating events should be added below `#repeatingEvents` and start with a dash (`-`). The script `maintain.py` adds these events automatically, whilst "filling" the Events.txt file up with additional days (can be defined in script).
+Repeating events should be added below `#repeatingYearly` and start with a dash (`-`). The script `maintain.py` adds these events automatically, whilst "filling" the Events.txt file up with additional days (can be defined in script).
 
-Note: Until now, #repeatingEvents assumes, that those events repeat each year. The script expects only day/month format.
+Note: Until now, #repeatingYearly assumes, that those events repeat each year. The script expects only day/month format.
 
-The recommended practise is to always keep repeating events inside #repeatingEvents. This way, they wont get "lost" after a few years.
+The recommended practise is to always keep repeating events inside #repeatingYearly. This way, they wont get "lost" after a few years.
 
 The maintain.py script does not get rid of past days. It is up to the user, what to do with past events.
 
@@ -66,7 +66,7 @@ To make your own Event.txt from scratch:
 
 ```
 touch Events.txt
-python3 gen.py >> Events.txt
+python3 make.py >> Events.txt
 ```
 
 This generates an empty Events.txt.
