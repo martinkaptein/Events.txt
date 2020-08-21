@@ -16,12 +16,12 @@ __@username__
 .
 .
 .
-29/04/2022 Fri | 
-30/04/2022 Sat | + 2300 stuff #randomHashtag
+----29/04/2022 Fri | 
+----30/04/2022 Sat | + 2300 stuff #randomHashtag
 
 
 May
-01/05/2022 Sun |
+01/05/2022 Sun | TODAY
 ______
 02/05/2022 Mon |
 03/05/2022 Tue |
@@ -35,7 +35,7 @@ ______
 .
 etc.
 #repeatingYearly
-04/05 - May the force (this event repeats each year)
+04/05 - 1200 May the force be with you #maytheforce
 
 #oob
 14/05/2040 - This is just an event, which is very far away in the future and hasn't found its place in Events.txt yet.
@@ -47,7 +47,7 @@ Search for `#oob (out-of-bounds)` to add events outside of the file scope (as de
 
 Every Events starts with a `+` character, in order to quickly scan through all events just using search.
 
-WORK IN PROGRESS
+Each past day and event, shall be indented using 4 dashes ('-'). This is if you want to use the archive feature, which works through the `archive.py` script. If you don't want to use this feature, feel free to delete each day after it has passed.
 
 Repeating events should be added below `#repeatingYearly` and start with a dash (`-`). The script `maintain.py` adds these events automatically, whilst "filling" the Events.txt file up with additional days (can be defined in script).
 
@@ -56,11 +56,6 @@ Note: Until now, #repeatingYearly assumes, that those events repeat each year. T
 The recommended practise is to always keep repeating events inside #repeatingYearly. This way, they wont get "lost" after a few years.
 
 The maintain.py script does not get rid of past days. It is up to the user, what to do with past events.
-
-Myself, usually I just delete each day the previous day, symbolising the passing of each day in a philosophical sense. In some cases, it would be smart, however, to maintain a record of all previous events. 
-
-Hence, this is functionality which might also be added later.
-
 
 To make your own Event.txt from scratch:
 
@@ -79,6 +74,5 @@ Until now, you will have to manually insert #oob events into the correct date in
 
 # To-Do
 
-- archive functionality
 - install instructions to add to $PATH
 - auto add #oob when it possible
