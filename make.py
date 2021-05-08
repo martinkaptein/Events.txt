@@ -1,5 +1,5 @@
 import datetime
-print("___Events (dot) txt___\n__@username__\n")
+#print("___Events (dot) txt___\n__@username__\n")
 
 
 now = datetime.datetime.now()
@@ -10,7 +10,7 @@ now = datetime.datetime.now()
 genDaysAhead = 2000 #4380
 WeekdaysStrings = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
 months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
-# if you want the week to start on sunday, change elif statement to weekdaynumber == 6
+# if you want the week to start on sunday, change elif statement below to weekdaynumber == 6
 
 # end settings
 
