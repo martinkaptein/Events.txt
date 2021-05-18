@@ -60,3 +60,7 @@ python3 maintain.py
 ```
 
 It assumes that your file is called `Events.txt`.
+
+## More info
+
+I wrote a [blog post about Events.txt](https://kaptein.me/blog/plain-text-calendar/) on my website, with a lot more information about it, highlighting some usage scenario's etc..
